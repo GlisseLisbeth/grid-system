@@ -1,0 +1,96 @@
+/* GLOBAL */
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+  width: 100%;
+  max-width: 1200px;
+  max-height: 100%;
+  margin: 0 auto;
+}
+
+.row {
+    display: flex;
+}
+.row:before, .row:after{
+  content: "";
+  display: table;
+}
+.row:after{
+  clear: both;
+}
+[class *='col-' ]{
+  min-height: 7px;
+  padding: 12px;
+  margin: 6px;
+  float: left;
+}
+.col-1{
+  width: 8.333333%;
+}
+.col-2{
+  width: 16.6666667%;
+}
+.col-3{
+  width: 25%;
+}
+.col-4{
+  width: 33.333333%;
+}
+.col-5{
+  width: 41.6666667%;
+}
+.col-6{
+  width: 50%;
+}
+.col-7{
+  width: 58.333333%;
+}
+.col-8{
+  width: 66.6666667%;
+}
+.col-9{
+  width: 75%;
+}
+.col-10{
+  width: 83.333333%;
+}
+.col-11{
+  width: 91.6666667%;
+}
+.col-12{
+  width: 100%;
+}
+.gray{
+  background: gray;
+}
+.grayclaro{
+  background: #E8E8E8;
+}
+.blanco{
+  background: white;
+}
+.border-gray{
+  border: 1px solid gray;
+}
+.clear-bottom{
+  margin-bottom: 0px;
+  padding: 16px;
+}
+.clear-top{
+  margin-top: 0px;
+  padding: 16px;
+}
+.clear-left{
+  margin-left: 0px;
+  padding: 16px;
+}
+.padding-rigth{
+  padding-right: 18px;
+}
+.padding-left{
+  padding-left: 56px;
+}
